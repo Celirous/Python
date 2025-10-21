@@ -72,3 +72,11 @@ print(motorcycles)
 print(f"\nA {too_expensive.title()} is too expensive for me.")
 
 print('\n')
+
+
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati', 'kawasaki']
+
+for bike in motorcycles:
+    print(bike.title())
+
+
