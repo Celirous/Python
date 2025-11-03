@@ -8,10 +8,10 @@ print('\n')
 
 # you can use something called 'try-except Blocks 
 
-try:
-    print(5/0)
-except ZeroDivisionError: #from what i understand it is used so the system rather tells you it is not working rather than crashing python 
-    print("You can't devide by zero!")
+# try:
+#     print(5/0)
+# except ZeroDivisionError: #from what i understand it is used so the system rather tells you it is not working rather than crashing python 
+#     print("You can't devide by zero!")
 
 print('\n') 
 
@@ -79,8 +79,8 @@ print('\n')
 #     """Count the words in the text files i tell you to"""
 
 #     try:
-#         contents = path.read_text(encoding="utf-8")
-#     except FileNotFoundError:
+#         contents = path.read_text(encoding="utf-8") #so this utf-8 is to tell the system in what way it needs to read the 1's and 0's to be able to read the info for humans
+#     except FileNotFoundError:                         # usually the utf-8 is done in background, the example is here to teach us about this 
 #         print(f"Sorry, the file you are looking: {path} for does not exist")
 #     else: #we are now going to count the words in the text file
 #         words = contents.split()
